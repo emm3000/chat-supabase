@@ -13,7 +13,7 @@ class BingoApp: Application() {
         super.onCreate()
         startKoin {
             androidLogger() // fake route
-            androidContext(this@BingoApp) // second route // aca // tmr
+            androidContext(this@BingoApp) // second route // aca // tmr / 11111111
             modules(
                 sharedModule,
                 loginModule
