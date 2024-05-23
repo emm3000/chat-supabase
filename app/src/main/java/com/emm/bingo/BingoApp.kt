@@ -12,7 +12,7 @@ class BingoApp: Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
-            androidLogger()
+            androidLogger() // fake route
             androidContext(this@BingoApp)
             modules(
                 sharedModule,
