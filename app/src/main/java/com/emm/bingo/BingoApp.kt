@@ -13,6 +13,7 @@ class BingoApp: Application() {
         super.onCreate()
         startKoin {
             androidLogger()
+
             androidContext(this@BingoApp)
             modules(
                 sharedModule,
