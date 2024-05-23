@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+//    kotlin("plugin.serialization") version "1.9.24"
 }
 
 android {
@@ -67,7 +68,9 @@ dependencies {
     // koin
     implementation(platform("io.insert-koin:koin-bom:3.5.0"))
     implementation("io.insert-koin:koin-android")
+    implementation("io.insert-koin:koin-core")
     implementation("io.insert-koin:koin-androidx-compose")
+    implementation("io.ktor:ktor-client-cio:2.3.11")
 
     implementation("androidx.navigation:navigation-compose:2.7.7")
 

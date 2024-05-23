@@ -1,4 +1,4 @@
-package com.emm.bingo.ui.theme
+package com.emm.bingo.features.shared.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
