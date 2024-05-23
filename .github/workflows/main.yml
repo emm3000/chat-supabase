@@ -1,7 +1,7 @@
 name: Android Action
 
 on:
-  push:
+  pull_request:
     branches:
       - trunk
 
